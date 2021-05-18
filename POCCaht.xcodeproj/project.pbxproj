@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,8 +13,10 @@
 		B326584A26537FFE00A02F28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B326584826537FFE00A02F28 /* Main.storyboard */; };
 		B326584C2653800100A02F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B326584B2653800100A02F28 /* Assets.xcassets */; };
 		B326584F2653800100A02F28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B326584D2653800100A02F28 /* LaunchScreen.storyboard */; };
-		B326585A2653800100A02F28 /* POCCahtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32658592653800100A02F28 /* POCCahtTests.swift */; };
-		B32658652653800100A02F28 /* POCCahtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32658642653800100A02F28 /* POCCahtUITests.swift */; };
+		B32658762653801B00A02F28 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B32658752653801B00A02F28 /* GoogleService-Info.plist */; };
+		B3265881265380AB00A02F28 /* FireStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3265880265380AB00A02F28 /* FireStore.swift */; };
+		B3265886265380B000A02F28 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3265885265380B000A02F28 /* ChatCell.swift */; };
+		D993FED0C86688095757587B /* libPods-POCCaht.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E24B3D4D73D3E91E74F00615 /* libPods-POCCaht.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		996BF8A5598B7EC6B70A7D2A /* Pods-POCCaht.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCCaht.release.xcconfig"; path = "Target Support Files/Pods-POCCaht/Pods-POCCaht.release.xcconfig"; sourceTree = "<group>"; };
 		B326583F26537FFE00A02F28 /* POCCaht.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCCaht.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B326584226537FFE00A02F28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B326584426537FFE00A02F28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,11 +47,12 @@
 		B326584E2653800100A02F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B32658502653800100A02F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B32658552653800100A02F28 /* POCCahtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCCahtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B32658592653800100A02F28 /* POCCahtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCCahtTests.swift; sourceTree = "<group>"; };
-		B326585B2653800100A02F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B32658602653800100A02F28 /* POCCahtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCCahtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B32658642653800100A02F28 /* POCCahtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCCahtUITests.swift; sourceTree = "<group>"; };
-		B32658662653800100A02F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B32658752653801B00A02F28 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3265880265380AB00A02F28 /* FireStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireStore.swift; sourceTree = "<group>"; };
+		B3265885265380B000A02F28 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		D2745FD9732D3FBF9460DF70 /* Pods-POCCaht.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCCaht.debug.xcconfig"; path = "Target Support Files/Pods-POCCaht/Pods-POCCaht.debug.xcconfig"; sourceTree = "<group>"; };
+		E24B3D4D73D3E91E74F00615 /* libPods-POCCaht.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-POCCaht.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D993FED0C86688095757587B /* libPods-POCCaht.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +81,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		472F409AC176BD56DF874094 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2745FD9732D3FBF9460DF70 /* Pods-POCCaht.debug.xcconfig */,
+				996BF8A5598B7EC6B70A7D2A /* Pods-POCCaht.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		92BAC8155363F638025226FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E24B3D4D73D3E91E74F00615 /* libPods-POCCaht.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B326583626537FFE00A02F28 = {
 			isa = PBXGroup;
 			children = (
 				B326584126537FFE00A02F28 /* POCCaht */,
-				B32658582653800100A02F28 /* POCCahtTests */,
-				B32658632653800100A02F28 /* POCCahtUITests */,
 				B326584026537FFE00A02F28 /* Products */,
+				472F409AC176BD56DF874094 /* Pods */,
+				92BAC8155363F638025226FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,33 +121,18 @@
 		B326584126537FFE00A02F28 /* POCCaht */ = {
 			isa = PBXGroup;
 			children = (
+				B32658752653801B00A02F28 /* GoogleService-Info.plist */,
 				B326584226537FFE00A02F28 /* AppDelegate.swift */,
 				B326584426537FFE00A02F28 /* SceneDelegate.swift */,
 				B326584626537FFE00A02F28 /* ViewController.swift */,
+				B3265885265380B000A02F28 /* ChatCell.swift */,
+				B3265880265380AB00A02F28 /* FireStore.swift */,
 				B326584826537FFE00A02F28 /* Main.storyboard */,
 				B326584B2653800100A02F28 /* Assets.xcassets */,
 				B326584D2653800100A02F28 /* LaunchScreen.storyboard */,
 				B32658502653800100A02F28 /* Info.plist */,
 			);
 			path = POCCaht;
-			sourceTree = "<group>";
-		};
-		B32658582653800100A02F28 /* POCCahtTests */ = {
-			isa = PBXGroup;
-			children = (
-				B32658592653800100A02F28 /* POCCahtTests.swift */,
-				B326585B2653800100A02F28 /* Info.plist */,
-			);
-			path = POCCahtTests;
-			sourceTree = "<group>";
-		};
-		B32658632653800100A02F28 /* POCCahtUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B32658642653800100A02F28 /* POCCahtUITests.swift */,
-				B32658662653800100A02F28 /* Info.plist */,
-			);
-			path = POCCahtUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B32658692653800100A02F28 /* Build configuration list for PBXNativeTarget "POCCaht" */;
 			buildPhases = (
+				2487B7798101796C96F73626 /* [CP] Check Pods Manifest.lock */,
 				B326583B26537FFE00A02F28 /* Sources */,
 				B326583C26537FFE00A02F28 /* Frameworks */,
 				B326583D26537FFE00A02F28 /* Resources */,
+				8917729C4512BA04A97FECA2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B326584F2653800100A02F28 /* LaunchScreen.storyboard in Resources */,
+				B32658762653801B00A02F28 /* GoogleService-Info.plist in Resources */,
 				B326584C2653800100A02F28 /* Assets.xcassets in Resources */,
 				B326584A26537FFE00A02F28 /* Main.storyboard in Resources */,
 			);
@@ -253,13 +263,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2487B7798101796C96F73626 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POCCaht-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8917729C4512BA04A97FECA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-POCCaht/Pods-POCCaht-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-POCCaht/Pods-POCCaht-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-POCCaht/Pods-POCCaht-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B326583B26537FFE00A02F28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B326584726537FFE00A02F28 /* ViewController.swift in Sources */,
+				B3265881265380AB00A02F28 /* FireStore.swift in Sources */,
 				B326584326537FFE00A02F28 /* AppDelegate.swift in Sources */,
+				B3265886265380B000A02F28 /* ChatCell.swift in Sources */,
 				B326584526537FFE00A02F28 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +322,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B326585A2653800100A02F28 /* POCCahtTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +329,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B32658652653800100A02F28 /* POCCahtUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,11 +485,13 @@
 		};
 		B326586A2653800100A02F28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2745FD9732D3FBF9460DF70 /* Pods-POCCaht.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = POCCaht/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,11 +505,13 @@
 		};
 		B326586B2653800100A02F28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996BF8A5598B7EC6B70A7D2A /* Pods-POCCaht.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = POCCaht/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
